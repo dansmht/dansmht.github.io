@@ -1,0 +1,35 @@
+.main {
+  max-width: var(--section-max-width);
+  width: 100%;
+  height: 5px;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main .tab {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%);
+  opacity: 1;
+  transition: .5s;
+}
+
+.main .tab.not-active-tab {
+  z-index: -100;
+  height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transform: translate(-50%,-10%);
+}
+
+.works-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

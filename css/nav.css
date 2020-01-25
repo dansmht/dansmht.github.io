@@ -1,0 +1,23 @@
+.nav {
+  max-width: var(--section-max-width);
+  margin: 0 auto;
+}
+
+.nav .nav-list {
+  list-style: none;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav .nav-list .nav-list__item {
+  text-transform: uppercase;
+  margin: 0 15px;
+  cursor: pointer;
+  transition: all .3s ease-in;
+}
+
+.nav .nav-list .nav-list__item:hover {
+  color: var(--hover-color);
+}

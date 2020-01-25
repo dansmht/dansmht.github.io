@@ -1,0 +1,6 @@
+:root {
+  --section-max-width: 1200px;
+  --hover-color: #ffac62;
+  --bg-image-url: url("../images/bg-image-1.jpg");
+  --quote-size: 400px;
+}
