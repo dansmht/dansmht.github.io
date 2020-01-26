@@ -1,0 +1,42 @@
+.contacts {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 50px;
+  background: #000000;
+  background: linear-gradient(90deg, #000000 0%, #222222 20%, #000000);
+  opacity: .8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contacts h2 {
+  margin-bottom: 15px;
+}
+
+.contacts p {
+  margin: 8px 4px;
+}
+
+.contacts a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: all .3s ease-in;
+}
+
+.contacts a:hover {
+  color: var(--hover-color);
+}
+
+.social-media {
+  list-style: none;
+  display: flex;
+}
+
+.social-media .social-media__link {
+  margin-left: 15px;
+}
+
+.social-media .social-media__link img {
+  width: 50px;
+}
