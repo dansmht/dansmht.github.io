@@ -3,4 +3,7 @@
   --hover-color: #ffac62;
   --bg-image-url: url("../images/bg-image-1.jpg");
   --quote-size: 400px;
+  --font-size-title: 1.8rem;
+  --margin-section: 50px auto;
+  --bg-gradient-section: linear-gradient(90deg, rgba(0, 0, 0, .8) 0%, rgba(34, 34, 34, .8) 20%, rgba(0, 0, 0, .8));
 }

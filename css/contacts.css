@@ -1,16 +1,17 @@
 .contacts {
   max-width: 500px;
-  margin: 50px auto;
+  margin: var(--margin-section);
   padding: 50px;
   background: #000000;
-  background: linear-gradient(90deg, #000000 0%, #222222 20%, #000000);
-  opacity: .8;
+  background: var(--bg-gradient-section);
   display: flex;
   justify-content: space-between;
   align-items: center;
+  cursor: default;
 }
 
 .contacts h2 {
+  font-size: var(--font-size-title);
   margin-bottom: 15px;
 }
 
