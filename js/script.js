@@ -36,7 +36,6 @@
   L.marker(coords, {icon}).addTo(map).bindPopup('<b>Kirova 122a</b>').openPopup()
 
   const myMap = document.getElementById('mapid')
-  myMap.classList.add('hide')
   const toggleMapBtn = document.getElementById('show-map')
   toggleMapBtn.addEventListener('change', () => {
     toggleMapBtn.checked
