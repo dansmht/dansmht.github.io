@@ -1,0 +1,60 @@
+.works-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.works-list .works-list__item {
+  flex-basis: 27%;
+  margin: 50px 0;
+}
+
+.works-list .works-list__item a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  color: #ffffff;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 20px;
+  background-size: cover;
+  background-position: center center;
+  text-shadow: 1px 1px 5px #000000;
+  transition: .3s ease-in-out;
+  box-shadow: 0 1.5rem 2rem rgba(255, 255, 255, 0.15);
+}
+
+.works-list .works-list__item a:hover {
+  transform: scale(1.2);
+}
+
+.works-list .works-list__item a img {
+  max-height: 100px;
+  margin-right: 10px;
+  border-radius: 20px;
+}
+
+.try-to-get {
+  background: url(../images/try-to-get-bg.png);
+}
+
+.ask-me {
+  background: url(../images/ask-me-bg.jpg);
+}
+
+.quiz {
+  background: url(../images/quiz-app-bg.png);
+}
+
+.piano {
+  background-image: url(../images/piano-bg.jpg);
+}
+
+.typing-game {
+  background-image: url(../images/typing-game-bg.jpg);
+}
