@@ -39,6 +39,9 @@
   .works-list .works-list__item {
     flex-basis: 60%;
   }
+  .works-list .works-list__item a img {
+    margin-right: 0;
+  }
   .about-me {
     padding: 20px;
     text-align: center;
@@ -68,7 +71,10 @@
     font-size: 15px;
   }
   .works-list .works-list__item {
-    flex-basis: 80%;
+    flex-basis: 90%;
+  }
+  .works-list .works-list__item a {
+    text-align: center;
   }
   .nav .nav-list {
     flex-direction: column;
