@@ -38,6 +38,10 @@
   border-radius: 20px;
 }
 
+.react-pizza {
+  background: #ffdf8c;
+}
+
 .try-to-get {
   background: url(../images/try-to-get-bg.png);
 }
